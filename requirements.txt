@@ -1,0 +1,6 @@
+opencv-python>=4.8
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.7
+scipy>=1.10
+PyYAML>=6.0

@@ -1,0 +1,36 @@
+batch:
+  root_dir: examples/synthetic_batch
+  particle_size_group: demo
+  output_dir: demo_results/batch
+  pressure_folder_pattern: "demo-*pa"
+  segments_subdir: segments
+  frames_subdir: frames_enhanced
+  include_segments: all
+  exclude_segments: []
+  overwrite_existing: false
+  skip_if_done: true
+  continue_on_error: true
+batch_roi:
+  batch_roi_select_once: false
+  reuse_existing: false
+single_sequence_config:
+  base_config: config.demo.yaml
+  seed_mode: auto
+  interactive_roi: false
+  interactive_seed: false
+  auto_seed_tuning_enabled: false
+  auto_seed_review_enabled: false
+  roi_points_px: [[5, 5], [215, 5], [215, 135], [5, 135]]
+metadata:
+  particle_size_group: demo
+  particle_diameter_um_min: null
+  particle_diameter_um_max: null
+  particle_diameter_um_mid: null
+  particle_density_kg_m3: null
+  experiment_group: synthetic_demo
+  atmosphere: synthetic
+  voltage_kV: null
+  frequency_Hz: null
+analysis:
+  save_basic_plots: true
+  long_jump_threshold_mm: null
