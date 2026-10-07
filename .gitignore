@@ -1,0 +1,12 @@
+demo_results/
+output/
+V3_batch_output/
+__pycache__/
+*.pyc
+.idea/
+.venv/
+examples/synthetic_batch/
+data/
+raw/
+videos/
+
